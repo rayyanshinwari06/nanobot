@@ -1,16 +1,31 @@
-# ai_chatbot
+# NanoBot - AI Chatbot using Gemini API & Flutter
 
-A new Flutter project.
+NanoBot is a smart AI-powered chatbot built with **Flutter** and **Google's Gemini API**. It provides intelligent, real-time conversations with a modern chat interface and typing animation for a realistic feel.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Uses Gemini (Google AI) for powerful responses  
+- Typing effect animation for replies  
+- Chat bubbles styled for user and bot  
+- Dark UI theme  
+- Emoji support in bot replies  
+- Scrollable chat history  
+- Auto-scroll to latest message  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Tech Stack
+
+- **Flutter** (UI framework)
+- **Dart** (Programming language)
+- **Gemini API** (from Google Generative Language)
+
+
+
+## 📦 Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/rayyanshinwari06/nanobot.git
+   cd nanobot
