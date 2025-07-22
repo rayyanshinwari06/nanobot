@@ -1,11 +1,12 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
+import 'package:nanobot/env.dart';
 
 class GeminiApiSevice {
   List<Map<String, dynamic>> chatHistory = [];
 
-  final String apiKey = 'AIzaSyAHGBioxTs0tZGVI5OqcW_32Ne2cGsbIc8';
+  final String apiKey = Env.geminiApiKey;
 
   Future<String> getChatResponse(String userMessage) async {
     const url =
